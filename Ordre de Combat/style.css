@@ -1,0 +1,457 @@
+#historique {
+    position: relative;
+    overflow-y: auto;
+    max-height: 350px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black;
+}
+
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: grey !important;
+  border-style: solid;
+  border-width: 0;
+}
+
+.table{
+     color: rgba(255, 255, 255, 0.843) !important;
+}
+
+button:focus {
+    outline: none;
+}
+
+#annonce
+{
+     color: rgba(0, 175, 6, 0.728) !important;
+}
+#infoJoueurs1
+{
+     color: gold !important;
+}
+#infoJoueurs2
+{
+     color: gold !important;
+}
+#nouveauJoueur
+{
+     color: rgba(0, 157, 255, 0.728) !important;
+}
+
+body
+{
+    background: no-repeat center fixed;
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover;
+    animation: changeBackground 600s infinite;
+    -webkit-animation: changeBackground 600s infinite;
+}
+
+@keyframes changeBackground
+{
+     0%
+     {
+          background-image: url("Images/Dragon.jpg");   
+     }
+     0.001%
+     {
+          background-image: url("Images/demon.jpg");   
+     }
+     0.002%
+     {
+          background-image: url("Images/doubleLame.jpg");   
+     }
+     0.003%
+     {
+          background-image: url("Images/homme contre dragon.jpg"); 
+     }
+     0.004%
+     {
+          background-image: url("Images/lameFeu.jpg"); 
+     }
+     0.005%
+     {
+          background-image: url("Images/Bataille.jpg");   
+     }
+     14%
+     {
+          background-image: url("Images/Bataille.jpg");   
+     }
+     16%
+     {
+          background-image: url("Images/Dragon.jpg");   
+     }
+     30%
+     {
+          background-image: url("Images/Dragon.jpg");   
+     }
+     32%
+     {
+          background-image: url("Images/demon.jpg");   
+     }
+     47%
+     {
+          background-image: url("Images/demon.jpg");   
+     }
+     49%
+     {
+          background-image: url("Images/doubleLame.jpg");   
+     }
+     63%
+     {
+          background-image: url("Images/doubleLame.jpg");   
+     }
+     65%
+     {
+         background-image: url("Images/homme contre dragon.jpg"); 
+     }
+     80%
+     {
+         background-image: url("Images/homme contre dragon.jpg"); 
+     }
+     82%
+     {
+          background-image: url("Images/lameFeu.jpg"); 
+     }
+     98%
+     {
+          background-image: url("Images/lameFeu.jpg"); 
+     }
+     100%
+     {
+         background-image: url("Images/Bataille.jpg");  
+     }
+}
+
+@-webkit-keyframes changeBackground
+{
+    0%
+    {
+         background-image: url("Images/Dragon.jpg");   
+    }
+    0.01%
+    {
+         background-image: url("Images/demon.jpg");   
+    }
+    0.02%
+    {
+         background-image: url("Images/doubleLame.jpg");   
+    }
+    0.03%
+    {
+         background-image: url("Images/homme contre dragon.jpg"); 
+    }
+    0.04%
+    {
+         background-image: url("Images/lameFeu.jpg"); 
+    }
+    0.05%
+    {
+         background-image: url("Images/Bataille.jpg");   
+    }
+    12%
+    {
+         background-image: url("Images/Bataille.jpg");   
+    }
+    16%
+    {
+         background-image: url("Images/Dragon.jpg");   
+    }
+    28%
+    {
+         background-image: url("Images/Dragon.jpg");   
+    }
+    32%
+    {
+         background-image: url("Images/demon.jpg");   
+    }
+    45%
+    {
+         background-image: url("Images/demon.jpg");   
+    }
+    49%
+    {
+         background-image: url("Images/doubleLame.jpg");   
+    }
+    61%
+    {
+         background-image: url("Images/doubleLame.jpg");   
+    }
+    65%
+    {
+        background-image: url("Images/homme contre dragon.jpg"); 
+    }
+    78%
+    {
+        background-image: url("Images/homme contre dragon.jpg"); 
+    }
+    82%
+    {
+         background-image: url("Images/lameFeu.jpg"); 
+    }
+    97%
+    {
+         background-image: url("Images/lameFeu.jpg"); 
+    }
+    100%
+    {
+        background-image: url("Images/Bataille.jpg");  
+    }
+}
+
+.ligne
+{
+     background-color: rgba(0, 0, 0);
+     width: 100%;
+     height: 4px;
+     border-radius: 2px;
+     margin-top: 12px;
+     margin-bottom: 12px;
+}
+
+h1
+{
+    text-align: center;
+    color: rgba(255, 0, 0, 0.823);
+    text-shadow: 0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black;
+}
+
+h3
+{
+     color: inherit;
+     text-align: center;
+     text-shadow: 0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black;
+}
+
+h5
+{
+     color: inherit;
+     text-align: center;
+     text-shadow: 0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black;
+}
+
+#titreName
+{
+     color: rgba(0, 149, 255, 0.823);
+}
+#titreVitesse
+{
+     color: rgb(0, 214, 7, 0.823);
+}
+
+.ownLabel
+{ 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black,0 0 7px black;
+}
+
+.ownInput
+{
+    line-height: 50%;
+    font-size: 20px;
+    border: black solid 2px;
+    border-radius: 5px;
+    background-color: rgba(154, 154, 154, 0.51);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px;
+}
+
+
+.ownInput:focus {
+    outline: none;
+}
+
+.ownButton
+{
+    border: black solid 2px;
+}
+
+p
+{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black;
+}
+
+.btn
+{
+    border: rgba(35, 35, 35, 0.809) solid 2px !important;
+}
+
+.erreur
+{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black;
+}
+
+.pv
+{
+     border: black solid 2px;
+     background-color: rgba(194, 0, 0, 0.761);
+     border-radius: 10px;
+     height: 40px;
+     color: white;
+     text-align: center;
+     text-shadow: 0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black;
+}
+
+.vit
+{
+     border: black solid 2px;
+     background-color: rgba(137, 137, 137, 0.823);
+     border-radius: 10px;
+     height: 40px;
+     color: white;
+     text-align: center;
+     text-shadow: 0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black;
+}
+
+.invisibleInput
+{
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     float: left;
+     width: 35px;
+     margin-left: 5px;
+     margin-right: 5px;
+     font-size : 20px;
+     color: white;
+     text-align: center;
+     text-shadow: 0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black;
+}
+.invisibleInput:focus
+{
+     outline: none;
+
+}
+
+.img
+{
+     margin-top: 10px;
+     background-image:url(Images/Flamme.jpg);
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     float: left;
+     width: 35px;
+     margin-left: 5px;
+     margin-right: 5px;
+     font-size : 25px;
+     color: white;
+     text-align: center;
+}
+.img:focus
+{
+     outline: none;
+}
+
+.img2
+{
+     margin-top: 10px;
+     background-image:url(Images/Flamme.jpg);
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     width: 35px;
+     margin-left: 5px;
+     margin-right: 5px;
+     font-size : 25px;
+     color: white;
+     text-align: center;
+}
+.img2:focus
+{
+     outline: none;
+}
+
+.brulure
+{
+     text-shadow: 0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red;
+}
+
+.poison
+{
+     text-shadow: 0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green;
+}
+
+.foudre
+{
+     text-shadow: 0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange,0 0 2px darkorange;
+}
+
+.flocon
+{
+     margin-left: 8px;
+     text-shadow: 0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue;
+}
+
+.sang
+{
+     text-shadow: 0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred,0 0 2px darkred;
+}
+
+.folie
+{
+     text-shadow: 0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple,0 0 2px purple;
+}
+
+.armure
+{
+     text-shadow: 0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey,0 0 2px grey;
+}
+
+.armureMagique
+{
+     margin-left: 10px !important;
+     text-shadow: 0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue,0 0 2px darkblue;
+}
+
+.attaque
+{
+     margin-left: 10px !important;
+     text-shadow: 0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue,0 0 2px blue; 
+}
+
+.attaqueMagique
+{
+     margin-left: 10px !important;
+     text-shadow: 0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red,0 0 2px red; 
+}
+
+.soin
+{
+     margin-left: 10px !important;
+     text-shadow: 0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green,0 0 2px green; 
+}
+
+.precision
+{
+     margin-left: 10px !important;
+     text-shadow: 0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black,0 0 2px black; 
+}
+
+.commentaire
+{
+     font-size: 20px;
+     word-wrap: break-word;
+     text-overflow: ellipsis;
+     overflow-y: auto;
+     border: black solid 2px;
+     border-radius: 5px;
+     background-color: rgba(154, 154, 154, 0.51);
+     width: 100%;
+     min-height: 80px;
+     max-height: 80px;
+     text-align: center;
+     color: rgb(255, 255, 255);
+     text-shadow: 0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px black,0 0 3px;
+}
